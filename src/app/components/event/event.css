@@ -1,0 +1,11 @@
+.activities-list {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.activity {
+    width: 400px;
+    border: 1px solid #dddddd;
+    border-radius: 4px;
+    margin: auto;
+}

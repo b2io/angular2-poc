@@ -1,0 +1,24 @@
+{
+  "name": "organize",
+  "version": "0.1.0",
+  "description": "An Angular2 version of Organize",
+  "scripts": {
+    "start": "live-server"
+  },
+  "jspm": {
+    "dependencies": {
+      "@reactivex/rxjs": "npm:@reactivex/rxjs@^5.0.0-alpha.4",
+      "angular2": "npm:angular2@2.0.0-alpha.44",
+      "es6-shim": "github:es-shims/es6-shim@^0.33.6",
+      "express": "npm:express@^4.13.3",
+      "live-server": "npm:live-server@^0.8.1",
+      "reflect-metadata": "npm:reflect-metadata@^0.1.2",
+      "zone.js": "npm:zone.js@^0.5.8"
+    },
+    "devDependencies": {
+      "babel": "npm:babel-core@^5.8.24",
+      "babel-runtime": "npm:babel-runtime@^5.8.24",
+      "core-js": "npm:core-js@^1.1.4"
+    }
+  }
+}

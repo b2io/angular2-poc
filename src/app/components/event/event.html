@@ -1,0 +1,5 @@
+<h1>{{title}}</h1>
+
+<div class="activities-list">
+    <activity *ng-for="#activity of activities; #i = index" [activity]="activity"></activity>
+</div>
